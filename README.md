@@ -8,14 +8,11 @@ Probably not, but if so, this might be the package for you!
 
 # Usage
 
-    <script lang="ts">
+    <script>
         import RansomNote from '$lib/ransom-note.svelte';
     </script>
 
-    <h1>Svelte demo zone</h1>
-
     <RansomNote>Hello there</RansomNote>
-
     <RansomNote>This a ransom note</RansomNote>
 
 

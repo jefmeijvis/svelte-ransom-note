@@ -1,6 +1,7 @@
 {
 	"name": "svelte-ransom-note",
 	"version": "0.0.3",
+  "main": "index.js",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -29,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-ransom-note": "^0.0.3",
 		"svelte2tsx": "^0.4.13"
 	}
 }
