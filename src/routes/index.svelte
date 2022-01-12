@@ -1,5 +1,5 @@
 <script lang="ts">
-	import RansomNote from 'svelte-ransom-note';
+	import {RansomNote }from 'svelte-ransom-note';
 </script>
 
 <h1>Svelte demo zone</h1>

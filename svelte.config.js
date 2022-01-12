@@ -1,5 +1,7 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+import path from 'path'
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,6 +17,15 @@ const config = {
 		package: {
 			dir: 'package',
 			emitTypes: true
+		}
+		,
+		vite:
+		{
+			resolve:{
+				alias: {
+					'svelte-ransom-note': path.resolve('src/lib')
+				}
+			}
 		}
 	}
 };
