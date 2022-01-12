@@ -21,7 +21,7 @@ If you have any feedback, feel free to open an issue on github
 
 # Links
 
-[Svelte ransom note on Npm](https://www.npmjs.com/package/svelte-ransom-note)
-[Svelte ransom note on Github](https://github.com/jefmeijvis/svelte-ransom-note)
+- [Svelte ransom note on Npm](https://www.npmjs.com/package/svelte-ransom-note)
+- [Svelte ransom note on Github](https://github.com/jefmeijvis/svelte-ransom-note)
 
 
