@@ -9,12 +9,19 @@ Probably not, but if so, this might be the package for you!
 # Usage
 
     <script>
-        import RansomNote from '$lib/ransom-note.svelte';
+        import {default as RansomNote} from '../../node_modules/svelte-ransom-note/src/lib/ransom-note.svelte'
     </script>
 
     <RansomNote>Hello there</RansomNote>
     <RansomNote>This a ransom note</RansomNote>
 
+# Feedback
 
+If you have any feedback, feel free to open an issue on github
+
+# Links
+
+[Svelte ransom note on Npm](https://www.npmjs.com/package/svelte-ransom-note)
+[Svelte ransom note on Github](https://github.com/jefmeijvis/svelte-ransom-note)
 
 
