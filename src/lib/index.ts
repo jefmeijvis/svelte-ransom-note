@@ -1,3 +1,1 @@
-import RansomNote from 'ransom-note.svelte';
-
-export default RansomNote;
+export { default as RansomNote } from './ransom-note.svelte';
